@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1AD328212743D0300A2A232 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1AD328112743D0300A2A232 /* Cocoa.framework */; };
+		E1AD328712743D0300A2A232 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1AD328512743D0300A2A232 /* InfoPlist.strings */; };
+		E1AD328912743D0300A2A232 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AD328812743D0300A2A232 /* main.m */; };
+		E1AD328C12743D0300A2A232 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1AD328A12743D0300A2A232 /* MainMenu.xib */; };
+		E1AD328F12743D0300A2A232 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E1AD328D12743D0300A2A232 /* Credits.rtf */; };
+		E1AD329212743D0300A2A232 /* TextWikiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AD329112743D0300A2A232 /* TextWikiAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E1AD327E12743D0300A2A232 /* TextWiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextWiki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1AD328112743D0300A2A232 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E1AD328312743D0300A2A232 /* TextWiki-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextWiki-Info.plist"; sourceTree = "<group>"; };
+		E1AD328412743D0300A2A232 /* TextWiki_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextWiki_Prefix.pch; sourceTree = "<group>"; };
+		E1AD328612743D0300A2A232 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E1AD328812743D0300A2A232 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1AD328B12743D0300A2A232 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E1AD328E12743D0300A2A232 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		E1AD329012743D0300A2A232 /* TextWikiAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextWikiAppDelegate.h; sourceTree = "<group>"; };
+		E1AD329112743D0300A2A232 /* TextWikiAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextWikiAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1AD327B12743D0300A2A232 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1AD328212743D0300A2A232 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1AD326F12743D0200A2A232 = {
+			isa = PBXGroup;
+			children = (
+				E1AD327612743D0200A2A232 /* Classes */,
+				E1AD327712743D0300A2A232 /* Other Sources */,
+				E1AD327812743D0300A2A232 /* Resources */,
+				E1AD327912743D0300A2A232 /* Frameworks */,
+				E1AD327F12743D0300A2A232 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1AD327612743D0200A2A232 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E1AD329012743D0300A2A232 /* TextWikiAppDelegate.h */,
+				E1AD329112743D0300A2A232 /* TextWikiAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E1AD327712743D0300A2A232 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E1AD328412743D0300A2A232 /* TextWiki_Prefix.pch */,
+				E1AD328812743D0300A2A232 /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		E1AD327812743D0300A2A232 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E1AD328312743D0300A2A232 /* TextWiki-Info.plist */,
+				E1AD328512743D0300A2A232 /* InfoPlist.strings */,
+				E1AD328A12743D0300A2A232 /* MainMenu.xib */,
+				E1AD328D12743D0300A2A232 /* Credits.rtf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E1AD327912743D0300A2A232 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1AD328112743D0300A2A232 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1AD327F12743D0300A2A232 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1AD327E12743D0300A2A232 /* TextWiki.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1AD327D12743D0300A2A232 /* TextWiki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1AD329512743D0300A2A232 /* Build configuration list for PBXNativeTarget "TextWiki" */;
+			buildPhases = (
+				E1AD327A12743D0300A2A232 /* Sources */,
+				E1AD327B12743D0300A2A232 /* Frameworks */,
+				E1AD327C12743D0300A2A232 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextWiki;
+			productName = TextWiki;
+			productReference = E1AD327E12743D0300A2A232 /* TextWiki.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1AD327112743D0200A2A232 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = E1AD327412743D0200A2A232 /* Build configuration list for PBXProject "TextWiki" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E1AD326F12743D0200A2A232;
+			productRefGroup = E1AD327F12743D0300A2A232 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1AD327D12743D0300A2A232 /* TextWiki */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1AD327C12743D0300A2A232 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1AD328712743D0300A2A232 /* InfoPlist.strings in Resources */,
+				E1AD328C12743D0300A2A232 /* MainMenu.xib in Resources */,
+				E1AD328F12743D0300A2A232 /* Credits.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1AD327A12743D0300A2A232 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1AD328912743D0300A2A232 /* main.m in Sources */,
+				E1AD329212743D0300A2A232 /* TextWikiAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E1AD328512743D0300A2A232 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1AD328612743D0300A2A232 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E1AD328A12743D0300A2A232 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1AD328B12743D0300A2A232 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		E1AD328D12743D0300A2A232 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1AD328E12743D0300A2A232 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1AD329312743D0300A2A232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E1AD329412743D0300A2A232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E1AD329612743D0300A2A232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TextWiki_Prefix.pch;
+				INFOPLIST_FILE = "TextWiki-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E1AD329712743D0300A2A232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TextWiki_Prefix.pch;
+				INFOPLIST_FILE = "TextWiki-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1AD327412743D0200A2A232 /* Build configuration list for PBXProject "TextWiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1AD329312743D0300A2A232 /* Debug */,
+				E1AD329412743D0300A2A232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1AD329512743D0300A2A232 /* Build configuration list for PBXNativeTarget "TextWiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1AD329612743D0300A2A232 /* Debug */,
+				E1AD329712743D0300A2A232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1AD327112743D0200A2A232 /* Project object */;
+}
